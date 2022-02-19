@@ -1,0 +1,80 @@
+/* header section */
+.heading{
+    padding-top: 110px;
+    padding-bottom: 96px;
+}
+.main-heading{
+    font-family: 'PT Serif', serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+.intro-head{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.intro-body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* main section */
+.people-job{
+    writing-mode: vertical-rl;
+    font-family: 'PT Serif', serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+.people-name {
+    font-family: 'Poppins', sans-serif;;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* mobile responsive */
+@media (max-width: 375px) {
+    .intro-body {
+        font-size: 14px;
+    }
+    .people-job {
+        font-size: 10px;
+    }
+    .people-name {
+        font-size: 14px;
+    }
+    .people {
+        height: 700px;
+    }
+    .special-people-mobile {
+        position: sticky;
+        margin-top: 100px;
+    }
+    footer {
+        margin-top: 203px;
+    }
+}
+@media (min-width: 1200px) {
+    .people {
+        height: 1400px;
+    }
+    .special-people{
+        position: sticky;
+        margin-top: 150px;
+    }
+}
+/* footer section */
+#footer-middle{
+    font-weight: 700;
+}
+
+#footer-end{
+    font-weight: 600;
+}
+footer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
